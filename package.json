@@ -5,10 +5,15 @@
   "description": "TypeScript learning workspace (Java to TS)",
   "scripts": {
     "dev": "tsx",
+    "learn:list": "tsx scripts/learning/list.ts",
+    "learn:start": "tsx scripts/learning/start.ts",
+    "learn:check": "tsx scripts/learning/check.ts",
+    "learn:review": "tsx scripts/learning/review.ts",
     "typecheck": "tsc --noEmit",
     "build": "tsc -p tsconfig.json"
   },
   "devDependencies": {
+    "@types/node": "^24.5.2",
     "tsx": "^4.20.3",
     "typescript": "^5.9.2"
   }

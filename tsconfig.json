@@ -7,9 +7,10 @@
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true,
+    "types": ["node"],
     "noEmit": true,
     "resolveJsonModule": true
   },
-  "include": ["exercises/**/*.ts", "docs/**/*.ts"],
+  "include": ["exercises/**/*.ts", "docs/**/*.ts", "scripts/**/*.ts"],
   "exclude": ["node_modules", "dist"]
 }

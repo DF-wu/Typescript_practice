@@ -1,23 +1,39 @@
-# Typescript_practice
-just my rubbish of practicing
+# TypeScript Learning Repo
 
-## Learning materials
+這個 repo 是給我自己用的 TypeScript 學習工作台：從 Java 工程師視角出發，從語法、型別系統，到後端、前端與 capstone。
 
-- Environment setup: `docs/00-environment-setup.md`
-- Beginner roadmap: `docs/typescript-learning-path.md`
-- Full task catalog: `docs/task-catalog.md`
-- Submission template: `docs/submission-template.md`
-- Starter exercises: `exercises/stage-1/`
-- Agent memory file: `AGENTS.md`
-- Learning tracker folder: `learning-plan/`
-- Weekly schedule: `learning-plan/weekly-study-schedule.md`
+## Start here
 
+第一次進來先看：
 
+- `docs/start-here.md`
+- `docs/00-environment-setup.md`
+- `docs/typescript-learning-path.md`
 
-## murmur
+## Daily workflow
 
-Sometimes I felt really bad for the words from my friend even he didn't refer that.
+1. `pnpm run learn:list`
+2. `pnpm run learn:start -- <lesson-id>`
+3. 修改對應 lesson 檔案
+4. `pnpm run learn:check -- <lesson-id>`
+5. 要我批改時，直接說「請 review <lesson-id>」
 
-I don't know how to deal with this emotion, I am still seeking. 
+如果你想把當下程式碼與輸出存成檔案，再跑：
 
-Turning the emotion arousal to motivation of learning may not be a good idea. but it's working now.
+```bash
+pnpm run learn:review -- <lesson-id>
+```
+
+這會在 `learning-plan/review-requests/` 產生 review snapshot，但它是可選的；現在不需要再手動貼 answer sheet。
+
+## Repo map
+
+- `docs/start-here.md`：最短上手入口
+- `docs/typescript-learning-path.md`：整體路線圖
+- `docs/task-catalog.md`：lesson / task 索引
+- `exercises/stage-1/`：Stage 1 練習
+- `exercises/stage-2/`：Stage 2 練習
+- `learning-plan/progress-tracker.md`：目前進度與 current focus
+- `learning-plan/review-log.md`：review 歷史
+- `learning-plan/session-notes.md`：最新 handoff
+- `scripts/learning/`：lesson-aware CLI workflow
