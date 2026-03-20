@@ -1,28 +1,41 @@
-# Submission Template (Deprecated)
+# Submission Template (for review)
 
-這份模板保留給你在**非常想手動整理一次內容**時使用。
-
-現在的預設流程已經改成：
-
-1. `pnpm run learn:check -- <lesson-id>`
-2. 直接說：`請 review <lesson-id>`
-
-如果你想把程式碼與輸出自動存成 markdown，請用：
-
-```bash
-pnpm run learn:review -- <lesson-id>
-```
-
-## 手動模板（僅備用）
+Copy this template when submitting your work to me.
 
 ```txt
-[Lesson ID]:
+[Task ID]:
+Example: Lesson 1 / TS-01
 
 [Goal]:
+What this task should solve.
 
 [Files]:
+List of changed files.
+
+[Code]:
+Paste full code or key snippets.
 
 [Run Result]:
+Paste command output (tsc/test/lint).
+
+[Self Check]:
+- What is correct
+- What might be wrong
 
 [Questions]:
+Where you feel unsure.
 ```
+
+## Review rubric
+
+I will score by:
+- Correctness (40)
+- Type safety (25)
+- Readability and structure (20)
+- Test quality (15)
+
+I will return:
+- Errors (critical / normal / minor)
+- Concrete fixes
+- Better TypeScript pattern suggestions
+- Next lesson recommendation

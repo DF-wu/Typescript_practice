@@ -2,48 +2,42 @@
 
 ## Current focus
 
-<!-- CURRENT_FOCUS_START -->
-- Current lesson ID: S1-01
-- Current lesson title: 基本型別與變數
-- Current file: exercises/stage-1/01_basic_types.ts
-- Status: Checks passed; pending AI review
-- Last check: 2026/03/21 01:49:02 (typecheck ok; exercise run ok)
-- Last review bundle: None
-- Next action: 直接告訴 AI：請 review S1-01（需要留快照時再跑 pnpm run learn:review -- S1-01）
-<!-- CURRENT_FOCUS_END -->
+- Current phase: Phase 0 - Setup
+- Current task: Environment verification (`docs/00-environment-setup.md`)
+- Status: In Progress
 
-## Stage checklist
+## Task checklist
 
-### Stage 0 - 環境與工具基礎
+### Stage 0
 
-- [x] S0-01 安裝 Node.js + pnpm
-- [x] S0-02 跑過 `pnpm install`
-- [x] S0-03 跑過 `pnpm run typecheck`
-- [x] S0-04 跑過 `pnpm run learn:list`
+- [ ] Install Node.js + pnpm
+- [ ] Run `pnpm install`
+- [ ] Run `pnpm run typecheck`
+- [ ] Run first file: `pnpm run dev -- exercises/stage-1/01_basic_types.ts`
 
-### Stage 1 - TS 語法入門
+### Stage 1
 
-- [ ] S1-01 基本型別與變數
-- [ ] S1-02 函式、可選參數、Union
-- [ ] S1-03 物件、陣列、不可變資料
+- [ ] Lesson 1: `01_basic_types.ts`
+- [ ] Lesson 2: `02_functions.ts`
+- [ ] Lesson 3: `03_objects_arrays.ts`
 
-### Stage 2 - TS 型別核心能力
+### Stage 2
 
-- [ ] S2-01 Narrowing 與 Type Guard
-- [ ] S2-02 Null Safety
-- [ ] S2-03 Utility Types
-- [ ] S2-04 Generic Repository
+- [ ] Narrowing and type guards
+- [ ] Null safety and optional chaining
+- [ ] Utility types
+- [ ] Generic repository
 
-### Stage 3 - Backend 主流實戰
+### Stage 3
 
-- [ ] S3-01 Task CRUD backend
-- [ ] S3-02 Validation and error handling
-- [ ] S3-03 Database integration
-- [ ] S3-04 Testing
+- [ ] Task CRUD backend
+- [ ] Validation and error handling
+- [ ] Database integration
+- [ ] Testing
 
-## Notes
+## Session history
 
-- `learn:start` 會更新 current focus。
-- `learn:check` 會更新 Last check 與建議下一步。
-- lesson 完成後，由 review 結論決定是否勾選完成。
-- Stage 3 之後目前仍是 roadmap placeholder，`learn:*` CLI 先支援 Stage 1 / 2。
+| Date | What I worked on | Result | Next action |
+|---|---|---|---|
+| 2026-02-16 | Initialized learning system files | Completed | Start Stage 1 Lesson 1 |
+| 2026-02-16 | Added full setup guide, TS configs, and weekly schedule | Completed | Finish Stage 0 verification |
